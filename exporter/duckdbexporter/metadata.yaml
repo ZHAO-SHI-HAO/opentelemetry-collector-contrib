@@ -1,0 +1,13 @@
+type: duckdb
+
+status:
+  class: exporter
+  stability:
+    alpha: [metrics, traces, logs]
+  distributions: [contrib]
+  codeowners:
+    active: [zsh]
+
+# TODO: Update the exporter to pass the tests
+tests:
+  skip_lifecycle: true
